@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>chating</title>
+    <link rel="stylesheet" href="/css/Main.css">
+    <script src ="/socket.io/socket.io.js"></script>
+
+</head>
+<body>
+    <form>
+        <div class="content">
+            <div class="logo">
+                <a href="List.html">
+                    <img src="https://img.icons8.com/color/50/000000/keyboard.png" class="logo_Image">
+                </a>
+            </div>
+            <div class="Room">
+                <header class="navbar">
+                    <div class="Room-Out">
+                        <a href="List.html">
+                            <img src="https://img.icons8.com/windows/50/000000/back.png">
+                        </a>
+                    </div>
+                    <div class="title">
+                        <span>채팅방</span>
+                    </div>
+                </header>
+                <div class="index" id="ddd">
+
+                    <div class="message-block">
+                        
+                    </div>
+
+                </div>
+                <footer class="">
+                    <div class="foot">
+                        <div class="send">
+                            <textarea type="text" id="text-content" cols="50" rows="10"
+                            autofocus class="textcontent"></textarea>
+                            <input type="button" value="전송" id="send-btn" onclick="send()">
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </form>
+    <script src="/js/index.js"></script>
+</body>
+</html>

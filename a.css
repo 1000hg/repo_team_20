@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#phone{
+	width: 480px;
+	height: 850px;
+	border: 1px solid black;
+	margin:0 auto;
+	margin-top: 70px;
+	border-radius: 10px;
+}
+
+#header{
+	width: 480px;
+	height: 150px;
+	 background: linear-gradient(to top, #ffffff 50%, #0066ff 101%);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.room{
+	border-top: 1px solid black;
+	width: 480px;
+	height: 80px;
+}

@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.content{
+	width: 500px;
+	height: 930px;
+	margin: 0 auto;
+}
+.logo{
+	width: 500px;
+	height: 85px;
+	text-align: center;
+	margin-top: 25px;
+}
+.logo img{
+	width: 85px;
+	height: 85px;
+}
+.Room-list{
+	margin: 0 auto;
+	width: 477px;
+	height: 847px;
+	border: 1px solid black;
+	border-radius: 5px;
+	border-right: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+.Room{
+	width: 100%;
+	height: 800px;
+}
+.Room-setting{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid black;
+	line-height: 50px;
+	text-align: center;
+}
+.Room-setting span{
+	font-size: 19px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+.Room-setting img{
+	cursor: pointer;
+	float: right;
+	width: 50px;
+	height: 50px;
+}
+.Room-Chating{
+	width: 100%;
+	height: 69px;
+	border-bottom: 1px solid black;
+	border-radius: 0 0 5px 5px;
+	text-align: center;
+}
+#Room-join-btn{
+	width: 100%;
+	height: 68px;
+	border: none;
+	background-color: white;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 500;
+}
+.Room-plus{
+	border-top: 1px solid black;
+	width: 100%;
+	height: 50px;
+}
+#Room-plus-btn{
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	height: 47px;
+	font-size: 20px;
+	font-weight: 700;
+	border: none;
+	background-color: black;
+	color: white;
+	outline: none;
+	border-radius: 0 0 5px 5px;
+}
+.filtering-plus{
+	position: absolute;
+	border: 1px solid black;
+	text-align: center;
+	margin: 0 auto;
+	width: 450px;
+	height: 198px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+.header{
+	width: auto;
+	height: 50px;
+}
+.filtering-plus img{
+	float: right;
+	margin: 5px;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+}
+.filtering-plus p{
+	display: inline-block;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-left: 40px;
+	font-weight: 600;
+}
+.Yokplus{
+	width: 80%;
+	height: 15px;
+	padding: 13px 5px 13px 5px;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	outline: none; 
+	margin-top: 90px;
+}
+#yok-send{
+	outline: none;
+	cursor: pointer;
+	width: 50px;
+	height: 45px;
+	background-color: white;
+	border: none;
+	border: 1px solid black;
+}

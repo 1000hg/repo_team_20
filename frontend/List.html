@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="List.css">
+</head>
+<script>
+	var filteringPlus = document.getElementsByClassName('filtering-plus');
+	var room = document.getElementsByClassName('Room');
+	var RoomChatting = document.getElementsByClassName('Room-Chating');
+	var Roombtn = document.getElementsByClassName('RoomBtn');
+
+	
+
+
+	function openFilter(){
+			room[0].style.backgroundColor = "#dfdfdf";
+			filteringPlus[0].style.display='block';
+			filteringPlus[0].style.backgroundColor='white';
+			RoomChatting[0].style.backgroundColor='#dfdfdf';
+			Roombtn[0].style.backgroundColor='#dfdfdf';
+
+	}
+
+	function closeFilter(){
+			filteringPlus[0].style.display='none';
+			room[0].style.backgroundColor = "white";
+			RoomChatting[0].style.backgroundColor='white';
+			Roombtn[0].style.backgroundColor='white';
+	}
+</script>
+
+<body>
+	<div class="content">
+		<div class="logo">
+			<a href="List.html">
+				<img src="착한자판-로고-(완성본).png" class="logo_Image">
+			</a>
+		</div>
+		<div class="Room-list">
+			<div class="Room">
+				<div class="Room-setting">
+					<span>채팅목록</span>
+					<img src="https://img.icons8.com/office/50/000000/automatic.png" id="setting-btn" onclick="openFilter();">
+				</div>
+				<div class="Room-Chating">
+					<input type="button" value="의문의 사람과의 대화" id="Room-join-btn" class="RoomBtn">
+				</div>
+			</div>
+			<div class="Room-plus">
+				<input type="button" value="방 추가" id="Room-plus-btn">
+			</div>
+		</div>
+	</div>
+	<div class="filtering-plus">
+		<div class="header">
+			<p>필터링에 추가할 비속어</p>
+			<img src="https://img.icons8.com/ios-filled/50/000000/x.png" id="close_btn" onclick="closeFilter();">
+		</div>
+		<form>
+			<input type="text" autofocus id="yok-plus" class="Yokplus" maxlength="25" name="Yok-text">
+			<input type="submit" value="추가" id="yok-send" name="Yok-send">
+		</form>
+	</div>	
+</body>
+
+</html>
